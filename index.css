@@ -1,0 +1,227 @@
+        *{
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    body{
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        line-height: 1.6;
+                        background-color: #f4f4f4;
+                        color: #333;
+                    }
+                    .container{
+                        max-width: 1100px;
+                        margin: 0 auto;
+                        padding: 0 20px;
+                    }
+                    .main-header{
+                        background: #2c3e50;
+                        color: white;
+                        padding: 1.5rem 0;
+                    }
+                    .main-header .container{
+                         display: flex;
+                         justify-content: space-between;
+                         align-items: center;
+                    }
+                    .main-header h1{
+                         color: #3498db;
+
+                    }
+                
+                    .main-header nav a{
+                        color: white;
+                        text-decoration: none;
+                        margin-left: 15px;
+                        font-weight: bold;
+                        
+                         
+                    }
+                    .main-header nav a:hover{
+                         text-decoration: none;
+                         background-color: orange;
+                         border-radius: 4px;                  
+                    }
+                     .main{
+                         display: flex;
+                         flex-wrap: wrap;
+                         gap: 30px;
+                         margin-top: 30px;
+                     }
+                     .feed{
+                         min-width: 250px;
+                     }
+                     .sidebar{
+                         flex: 1;
+                         min-width: 250px;
+                     }
+                     .post{
+                         background: white;
+                         padding: 25px;
+                         margin-bottom: 25px;
+                         border-radius: 8px;
+                         box-shadow: 0 2px 5px rgba( 0 ,0 ,0, 0.1);
+                     }
+                     .category{
+                        text-transform: uppercase;
+                        color: #3498db;
+                        font-weight: bold;
+                        font-size: 0.8rem;
+                     }
+                     .post h2{
+                         margin:  10px 0;
+                         color:#2c3e50;
+                     }
+                     .meta{
+                         font-size: 0.9rem;
+                         color: #7f8c8d;
+                         margin-bottom: 15px;
+                     }
+                     .read-more{
+                         display: inline-block;
+                         margin-top: 15px;
+                         color: #3498db;
+                         text-decoration: none;
+                         font-weight: bold;
+                     }
+                     .widget{
+                         background: #ecf0f1;
+                          padding: 20px;
+                          border-radius: 8px;
+                          margin-bottom: 20px;
+                     }
+                     .widget h3{
+                        margin-bottom: 10px;
+                        border-bottom: 2px solid #bdc3c7;
+                        padding-bottom: 15px;
+
+                     }
+                     .widget input{
+                         width: 100%;
+                         padding: 10px;
+                         margin-bottom: 10px;
+                         border: 1px solid #ddd;
+                     }
+                     .widget button{
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        border-radius: 1px solid red;
+                        color: white;
+                        border: none;
+                        background: #2c3e50;
+                        cursor: pointer;
+                
+                     }
+                     .main-footer{
+                        text-align: center;
+                        padding: 2rem;
+                        background: #2c3e50;
+                        color: white;
+                        margin-top: 40px;
+                        border-radius: 10px;
+                        font-size: 15px;
+                        box-shadow: 0 2px 5px rgba( 0 ,0 ,0, 0.1);
+
+                     }
+                     .post{
+                         padding: 0;
+                         overflow: hidden;
+                         display: flex;
+                         flex-direction: column;
+
+                     }
+                     .post-image img{
+                        width: 100%;
+                        height: 250px;
+                        object-fit: cover;
+                        display: block;
+                        transition: transform 0.3s ease;
+
+                     }
+                     .post:hover .post-image img{
+                        transform: scale(1.05);
+                     }
+                     .post-content{
+                        padding: 25px;
+
+
+                     }
+                     .meta{
+                         font-size: large;
+                         color: #95a5a6;
+                         margin-bottom: 10px;
+                         display: block;
+                     }
+                     .feed{
+                         display: flex;
+                         overflow-x: auto ;
+                         gap: 20px;
+                         padding-bottom: 20px;
+
+                     }
+                     .post{
+                        min-height: 300px;
+                     }
+          
+          
+          
+          
+          
+          .Technology{
+                    padding: 10px;
+                    font-size: large;
+                    font-weight: bold;
+                    margin-left: 40%;
+                    color: #3498db;
+                }
+                                
+                .understanding h1{
+                       margin-left: 30%;
+                }
+                .blog-system{
+
+                         margin-bottom: 25px;
+                         border-radius: 8px;
+                         box-shadow: 0 2px 5px rgba( 0 ,0 ,0, 0.1);
+                         background-color:#8dc4fa;
+                         margin-top: 10px;
+                         padding-bottom: 25px;
+                         padding-top: 20px;
+                         margin-left: 20px;
+                         margin-right: 20px;
+                         
+                     
+                   }
+                   .blog-system span{
+                     font-weight: bold;
+                     color: #094974;
+                     margin-left: 20px;
+                     
+                     font-size:15px;
+                    
+                   }
+                   .blog-system h1{
+                      font-size: large;
+                    
+                       text-transform: uppercase;
+                       padding-top:2%;
+                       color: black;
+
+                   }
+                   .blog-system p{
+                     font-size: 15px;
+                     font-style: italic;
+                   }
+                   .blog-system a{
+                      color:blue;
+                       font-weight: 700;
+                       text-decoration: none;
+
+                   }
+                    .blog-system a:hover{
+                        color: #2c3e50;
+
+                    }
+                    
+                    
